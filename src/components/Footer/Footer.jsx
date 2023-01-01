@@ -2,8 +2,8 @@ import React from "react";
 import "./footer.css";
 
 const Footer = () => {
-  const fname = "OV";
-  const lname = "Code Dev";
+  const fname = "SUV";
+  const lname = "CODE";
   const d = new Date();
   const year = d.getFullYear();
 
@@ -13,10 +13,11 @@ const Footer = () => {
       <div className="f-texts">Privacy policy</div>
 
       <div className="f-texts">
-        <p>Copyright© {year}. </p>
-        <p>
-          Developed and Designed by {fname} {lname}
-        </p>
+      Copyright© {year}
+      </div>
+      <div>
+          Designed and Developed by {fname} {lname}
+      
       </div>
     </div>
   );
