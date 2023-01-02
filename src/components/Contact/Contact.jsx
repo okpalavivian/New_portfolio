@@ -8,10 +8,10 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
-
+ 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    alert(`message sent successfuly ${name}`);
     emailjs
       .sendForm(
         "service_w7f9dkb",
